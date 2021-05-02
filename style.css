@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.titulo{
+    color: white;
+    font-size: 200%;
+}
+.prueba{
+    color: white;
+    font-size: 100%;
+}
+.logMarverl{
+    display:block;
+    margin:auto;
+    }
+.backgroundImage1{
+    max-width: 100%;
+}
+.logMarverl1{
+    display:block;
+    margin: 0px 50px 0px 50px;
+    }
