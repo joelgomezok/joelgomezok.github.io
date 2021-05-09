@@ -1,31 +1,83 @@
 body{
-    background-color: black;
+    background-color:  gray;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
+    background-attachment: fixed;
 }
 
-.titulo{
-    color: white;
-    font-size: 200%;
+.div-navbar{
+    padding: 0;
 }
-.prueba{
-    color: white;
-    font-size: 100%;
+.navbar-example{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color:black;
+    background-color: #0D181F;
+    font-size: 15px;
 }
-.logMarverl{
-    display:block;
-    margin:auto;
-    }
+
+.logMarvel1{
+    display:flex;
+    color: white;
+    padding: 20px 50px;
+}
+
+.logMarvel1:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #15212C; 
+}
+
+.logMarvel{
+    display:flex;
+    margin:auto;  
+    
+}
+
 .backgroundImage1{
     max-width: 100%;
 }
-.logMarverl1{
-    display:block;
-    margin: 0px 50px 0px 50px;
-    }
-.navbar1{
+
+h1{
+    color:#15212C;
+    font-size: 200%;
+
+}
+h2{
+    color: #15212C;
+}
+p{
+    color:#15212C;
+    font-size: 100%;
+}
+
+.prueba1{                               /*renombrar clase*/
+
+    background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
+    background-attachment: fixed;  
+}
+.prueba{                                /*renombrar clase*/
+    background-color: gray;
+    border-style: solid;
+    border-color:black;
+    border-radius: 25px;
+}
+
+.navbar-footer{
     display:flex;
     margin: 20px;
     justify-content: center;
+    
 }
 a{
+    text-decoration: none;
     padding: 0px 20px 0px 20px;
+    color:white;
+}
+
+span{
+    color:#53606A;
 }
