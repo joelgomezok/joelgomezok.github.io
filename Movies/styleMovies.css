@@ -48,12 +48,11 @@ img{
     max-width: 100%;
 }
 h1{
-
+    background-color: #0D181F;
     color: white;
     text-align: center;
     font-size: 350%;
     padding: 0;
-    margin-top: 15px;
 }
 .prueba{
     display:flex;
@@ -78,8 +77,29 @@ figure{
     
 }
 
-a{  
-    color:white;
+.navbar-footer{
+    
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #0D181F;
+    font-size: 15px;
+    
+}
+
+a{
     text-decoration: none;
     padding: 0px 20px 0px 20px;
+    color:white;
+}
+a:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    background-color: #15212C; 
+}
+span{
+    color:#53606A;
 }
