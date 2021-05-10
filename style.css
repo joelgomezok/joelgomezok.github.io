@@ -22,6 +22,13 @@ body{
     color: white;
     padding: 20px 50px;
 }
+.logMarvel2{
+    font-size: 15px;
+    display:flex;
+    color: white;
+    margin:0;
+    padding: 20px 50px;
+}
 
 .logMarvel1:hover{
     color: white;
@@ -37,8 +44,30 @@ body{
     
 }
 
+.prueba2{   /* ver esto*/
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 .backgroundImage1{
     max-width: 100%;
+}
+
+.textosobreimagen{   /*ver esto tambien*/
+    display: block;
+    position: absolute;
+    bottom: 70px;
+    z-index: 10;
+    background: rgba(0, 0, 0, .3);
+    width: 100%;
+    color:white;
+
+}
+   
+.prueba3{     /*ver esto tambein*/
+    margin-left: 10%;
+    color: white;
 }
 
 h1{
@@ -59,7 +88,8 @@ p{
     background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
     background-attachment: fixed;  
 }
-.prueba{                                /*renombrar clase*/
+.prueba{                                  /*renombrar clase*/
+    margin: 0px 10% 0px 10%;                     
     background-color: gray;
     border-style: solid;
     border-color:black;
@@ -67,17 +97,28 @@ p{
 }
 
 .navbar-footer{
+    
     display:flex;
     margin: 20px;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #0D181F;
+    font-size: 15px;
     
 }
+
 a{
     text-decoration: none;
     padding: 0px 20px 0px 20px;
     color:white;
 }
-
+a:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    background-color: #15212C; 
+}
 span{
     color:#53606A;
 }
