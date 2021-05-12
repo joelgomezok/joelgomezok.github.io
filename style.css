@@ -44,7 +44,7 @@ body{
     
 }
 
-.prueba2{   /* ver esto*/
+#prueba2{               /*ver esto tambein*/
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -54,19 +54,22 @@ body{
     max-width: 100%;
 }
 
-.textosobreimagen{   /*ver esto tambien*/
+.textoImg{   /*ver esto tambien*/
     display: block;
     position: absolute;
-    bottom: 70px;
+    bottom: 5%;
     z-index: 10;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(2, 2, 2, 0.3);
     width: 100%;
-    color:white;
-
+    height: 30%;
+    padding: 8px 10%; 
 }
-   
-.prueba3{     /*ver esto tambein*/
-    margin-left: 10%;
+#prueba2 .textoImg h1{    /*ver esto tambein*/
+    font-size: 300%;
+    color: white;
+}
+#prueba2 .textoImg p{    /*ver esto tambein*/
+    font-size: 150%;
     color: white;
 }
 
@@ -84,20 +87,32 @@ p{
 }
 
 .prueba1{                               /*renombrar clase*/
-
+    display: flex;
     background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
-    background-attachment: fixed;  
+    background-attachment: fixed; 
+    height:500px; 
+    overflow-y: scroll; 
+
 }
 .prueba{                                  /*renombrar clase*/
-    margin: 0px 10% 0px 10%;                     
+    margin: 5px; 
+    padding: 10px 30px;                  
+    background-color: gray;
+    border-style: solid;
+    border-color:black;
+    border-radius: 25px;
+    overflow-y: scroll; 
+}
+
+.pruebaAside{                                  /*renombrar clase*/
+    margin: 5px;
+    padding: 10px 30px;                  
     background-color: gray;
     border-style: solid;
     border-color:black;
     border-radius: 25px;
 }
-
 .navbar-footer{
-    
     display:flex;
     margin: 20px;
     justify-content: center;
@@ -110,7 +125,7 @@ p{
 
 a{
     text-decoration: none;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px;
     color:white;
 }
 a:hover{

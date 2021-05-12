@@ -21,6 +21,13 @@ body{
 
 }
 
+.logMarvel2{
+    font-size: 15px;
+    display:flex;
+    color: white;
+    margin:0;
+    padding: 20px 50px;
+}
 .logMarvel1{
     display:flex;
     color: white;
