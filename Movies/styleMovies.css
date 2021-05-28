@@ -1,0 +1,97 @@
+body{
+    background-color:  gray;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    background-color: #0D181F;
+}
+
+.div-navbar{
+    padding: 0;
+  }
+  .navbar-example{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color:black;
+    background-color: #0D181F;
+    font-size: 15px;
+  }
+  
+  .logMarvel1{
+    display:flex;
+    color: white;
+    padding: 20px 50px;
+  }
+  .logMarvel2{
+    font-size: 15px;
+    display:flex;
+    color: white;
+    margin:0;
+    padding: 20px 50px;
+  }
+  
+  .logMarvel1:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #15212C; 
+  }
+
+img{
+    max-width: 100%;
+}
+h1{
+    background-color: #0D181F;
+    color: white;
+    text-align: center;
+    font-size: 350%;
+    padding: 0;
+}
+.prueba{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 ;
+    
+
+ }
+ 
+figure{
+    padding: 5px;
+}
+.navbar1{
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    color:#15212C;
+    padding: 5px;
+    
+}
+
+.navbar-footer{
+    
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #0D181F;
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    color:white;
+}
+.links:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    background-color: #15212C; 
+}
+span{
+    color:#53606A;
+}

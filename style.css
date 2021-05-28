@@ -1,14 +1,137 @@
-img.img-thumbnail {
-  width: 70%;
-  height: 70%;
-}
 body{
-    background-color: black;
+    background-color:  gray;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
+    background-attachment: fixed;
 }
-.title{
+
+.div-navbar{
+    padding: 0;
+}
+.navbar-example{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color:black;
+    background-color: #0D181F;
+    font-size: 15px;
+}
+
+.logMarvel1{
+    display:flex;
     color: white;
-    text-transform: uppercase;
+    padding: 20px 50px;
 }
-.container{
-padding: 3%;
+.logMarvel2{
+    font-size: 15px;
+    display:flex;
+    color: white;
+    margin:0;
+    padding: 20px 50px;
+}
+
+.logMarvel1:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #15212C; 
+}
+
+#prueba2{               /*ver esto tambein*/
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.backgroundImage1{
+    max-width: 100%;
+}
+
+.textImg{   /*ver esto tambien*/
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    z-index: 10;
+    background: rgba(2, 2, 2, 0.3);
+    width: 100%;
+    height: 30%;
+    padding: 8px 7%; 
+}
+#prueba2 .textImg h1{    /*ver esto tambein*/
+    font-size: 300%;
+    color: white;
+}
+#prueba2 .textImg p{    /*ver esto tambein*/
+    font-size: 150%;
+    color: white;
+}
+
+h1{
+    color:#15212C;
+    font-size: 200%;
+
+}
+h2{
+    color: #15212C;
+}
+p{
+    color:#15212C;
+    font-size: 100%;
+}
+
+.prueba1{                               /*renombrar clase*/
+    display: flex;
+    justify-content: center;
+    background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
+    background-attachment: fixed; 
+    height:500px; 
+
+}
+.prueba{                                  /*renombrar clase*/
+    margin: 5px; 
+    padding: 10px 30px;                  
+    background-color: gray;
+    border-style: solid;
+    border-color:black;
+    border-radius: 25px;
+    overflow-y: scroll; 
+}
+
+.imgs{
+    width: 100%;
+}
+
+.pruebaAside{                                  /*renombrar clase*/
+    margin: 5px;
+    padding: 10px 30px;                  
+    background-color: gray;
+    border-style: solid;
+    border-color:black;
+    border-radius: 25px;
+}
+.navbar-footer{
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #0D181F;
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color:white;
+}
+a:hover{
+    color: white;
+    font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    background-color: #15212C; 
+}
+span{
+    color:#53606A;
 }

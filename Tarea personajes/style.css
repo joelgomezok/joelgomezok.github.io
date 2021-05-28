@@ -1,0 +1,73 @@
+img.img-thumbnail {
+  width: 70%;
+  height: 70%;
+}
+body{
+    background-color: black;
+}
+.title{
+    color: white;
+    text-transform: uppercase;
+}
+.container{
+padding-top: 3%;
+}
+.div-navbar{
+  padding: 0;
+}
+.navbar-example{
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color:black;
+  background-color: #0D181F;
+  font-size: 15px;
+}
+
+.logMarvel1{
+  display:flex;
+  color: white;
+  padding: 20px 50px;
+}
+.logMarvel2{
+  font-size: 15px;
+  display:flex;
+  color: white;
+  margin:0;
+  padding: 20px 50px;
+}
+
+.logMarvel1:hover{
+  color: white;
+  font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #15212C; 
+}
+
+
+.navbar-footer{
+  display:flex;
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #0D181F;
+  font-size: 15px;
+  
+}
+
+a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color:white;
+}
+a:hover{
+  color: white;
+  font-family:Trebuchet MS,Helvetica,Arial,sans-serif;
+  text-decoration: none;
+  background-color: #15212C; 
+}
+span{
+  color:#53606A;
+}
